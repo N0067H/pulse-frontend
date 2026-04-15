@@ -1,3 +1,9 @@
+[한국어](#korean) | [English](#english)
+
+---
+
+<a id="english"></a>
+
 # Pulse
 
 A lightweight internal API uptime monitoring tool.  
@@ -118,7 +124,7 @@ Opens at `http://localhost:5173`.
 
 ---
 
----
+<a id="korean"></a>
 
 # Pulse
 
