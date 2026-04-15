@@ -72,6 +72,8 @@ Create a Standard SNS topic and subscribe an email address to it for failure ale
 
 ### 2. Backend
 
+> Source: [n0067h/pulse-backend](https://github.com/n0067h/pulse-backend)
+
 **Environment variables**
 
 | Variable | Required | Default | Description |
@@ -192,6 +194,8 @@ Standard SNS 토픽을 생성하고, 알림을 받을 이메일 주소를 구독
 ---
 
 ### 2. 백엔드
+
+> 소스: [n0067h/pulse-backend](https://github.com/n0067h/pulse-backend)
 
 **환경 변수**
 
