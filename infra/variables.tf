@@ -20,3 +20,8 @@ variable "backend_port" {
   description = "Backend HTTP port"
   default     = 8080
 }
+
+variable "github_repo" {
+  type        = string
+  description = "GitHub repository in 'owner/repo' format (e.g. N0067H/pulse-frontend)"
+}
