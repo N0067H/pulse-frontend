@@ -85,10 +85,4 @@ resource "aws_cloudfront_distribution" "frontend" {
   viewer_certificate {
     cloudfront_default_certificate = true
   }
-
-  timeouts {
-    create = "30m"
-    update = "30m"
-    delete = "30m"
-  }
 }
