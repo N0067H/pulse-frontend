@@ -29,9 +29,9 @@ resource "aws_cloudfront_distribution" "frontend" {
     }
   }
 
-  # /apis/* → EC2 (no caching)
+  # /apis* → EC2 (no caching)
   ordered_cache_behavior {
-    path_pattern     = "/apis/*"
+    path_pattern     = "/apis*"
     allowed_methods  = ["DELETE", "GET", "HEAD", "OPTIONS", "PATCH", "POST", "PUT"]
     cached_methods   = ["GET", "HEAD"]
     target_origin_id = "EC2-pulse-backend"
